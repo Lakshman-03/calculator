@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns:33% 33% minmax(50vh,100vh);
+    gap: 1px;
+}
+.container>div{
+    display: flex;
+   flex-direction: column;
+}
+.container>div>button{
+    height: 4.5rem;
+}
+h1{
+    font-size: 3rem;
+    color: rgb(214, 214, 214);
+    
+}
+label{
+    font-size: 35px;
+    color: rgb(213, 213, 213);
+    margin-left: 50px;
+}
+button{
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.639);
+    text-decoration-color: #3c3c3c;
+    color: grey;
+}
+body{
+    background-color: #1f2120;
+}
